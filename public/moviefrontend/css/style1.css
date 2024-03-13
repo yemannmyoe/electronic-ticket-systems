@@ -1,0 +1,102 @@
+*{
+	font-family: aa;
+}
+
+@font-face
+
+{
+	font-family:aa;
+	src:url('ww.ttf');
+}
+a
+{
+	font-family:"aa";
+}
+#banner{
+	background:linear-gradient(to bottom,rgba(0,0,0,.2)0, rgba(0,0,0,.2)100%),url(image/mo.jpg);
+	width:100%;
+	height:60vh;
+	background-position: center center;
+	background-size: cover;
+}
+#navtitle
+{
+	padding-top: 90px;
+}
+#divider{
+	max-width:3.25rem;
+	border=width:.2rem;
+	border-color:#000000;
+}
+#counter{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image/6.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding:35px;
+}
+#letter{
+	position:absolute;
+	top:5%;
+	left:20%;
+	font-size:20px;
+	background-color:rgba(255,255,255,0.5);
+	padding:10px 50px;
+	display:block;
+	text-align:center;
+}
+nav.scrolled{
+	background-color:#000000;
+}
+
+#banner1{
+	background:linear-gradient(to bottom,rgba(255,255,255,.4)0, rgba(255,255,255,.4)100%),url(image/t2.jpg);
+	width:100%;
+	height:800px;
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#navtitle1
+{
+	padding-top: 110px;
+}
+
+#contactbtn1{
+	padding:1.25rem 2.25rem;
+	font-size: .85rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	border:none;
+	border-radius:10rem;
+	background-color:#ec037c;
+	color:white;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+div#cool{
+	background:linear-gradient(to bottom,rgba(0,0,0,.4)0, rgba(0,0,0,.4)100%),url(image/t2.jpg);
+	width:100%;
+	height:800px;
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	padding:10rem 10rem;
+	color:dark;
+}
